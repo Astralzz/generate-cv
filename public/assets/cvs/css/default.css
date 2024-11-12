@@ -1,0 +1,263 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #fbfcfa;
+}
+.page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.section {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* SECTION - IZQUIERDA ---------------------------------- */
+.izquierda {
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(188, 185, 185);
+}
+
+/* Titulo -------- */
+.section-title {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    border-bottom-right-radius: 120px;
+}
+
+.section-title span {
+    font-size: 70px;
+}
+
+/* Código QR -------- */
+.qr-code {
+    background: rgb(188, 185, 185);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.qr-code img {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Inf adicional -------- */
+.additional-info-box {
+    height: 100%;
+    padding-top: 1%;
+}
+
+.additional-info {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    border-radius: 5px;
+    margin: 2%;
+    text-align: center;
+}
+
+.additional-info a {
+    color: rgb(2, 71, 150);
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.additional-info img {
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* SECTION - ENCABEZADO ---------------------------------- */
+.encabezado {
+    width: 80%;
+    height: 40%;
+    top: 0;
+    left: 20%;
+    padding: 20px;
+}
+
+.encabezado-imgs {
+    margin-top: 4%;
+}
+
+.encabezado-label {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 22px;
+    color: black;
+}
+
+.encabezado-label span {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+/* SECTION - CROQUIS ---------------------------------- */
+.croquis {
+    width: 60%;
+    height: 60%;
+    bottom: 4%;
+    left: 20%;
+}
+
+/* SECTION - BLOQUE ---------------------------------- */
+.bloque {
+    width: 20%;
+    height: 55%;
+    bottom: 0;
+    left: 80%;
+}
+
+/* Títulos -------- */
+.bloque-title,
+.color-title,
+.clave-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+/* Seccion -------- */
+.bloque-text {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+/* Color -------- */
+.color-box {
+    width: 50%;
+    height: 15%;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
+/* Clave -------- */
+.clave-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* SECTION - COLORES ---------------------------------- */
+
+/* Seccion A1 #6a9a2e -------- */
+
+.bg-A1 {
+    background: #6a9a2e;
+    background-color: #6a9a2e;
+}
+
+.tx-A1 {
+    color: #6a9a2e;
+}
+
+/* Seccion A2 -------- */
+
+.bg-A2 {
+    background: #706f6f;
+    background-color: #706f6f;
+}
+
+.tx-A2 {
+    color: #706f6f;
+}
+
+/* Seccion A3 -------- */
+
+.bg-A3 {
+    background: #e30613;
+    background-color: #e30613;
+}
+
+.tx-A3 {
+    color: #e30613;
+}
+
+/* Seccion A4 #094c93 -------- */
+
+.bg-A4 {
+    background: #094c93;
+    background-color: #094c93;
+}
+
+.tx-A4 {
+    color: #094c93;
+}
+
+/* Seccion B1 #f39200 -------- */
+
+.bg-B1 {
+    background: #f39200;
+    background-color: #f39200;
+}
+
+.tx-B1 {
+    color: #f39200;
+}
+
+/* Seccion B2 #2daae1 -------- */
+
+.bg-B2 {
+    background: #2daae1;
+    background-color: #2daae1;
+}
+
+.tx-B2 {
+    color: #2daae1;
+}
+
+/* Seccion B3 #12a19a -------- */
+
+.bg-B3 {
+    background: #12a19a;
+    background-color: #12a19a;
+}
+
+.tx-B3 {
+    color: #12a19a;
+}
+
+/* Seccion B4 -------- */
+
+.bg-B4 {
+    background: #fedd13;
+    background-color: #fedd13;
+}
+
+.tx-B4 {
+    color: #fedd13;
+}
+
+/* Seccion PRENSA -------- */
+
+.bg-PRENSA {
+    background: #f06292;
+    background-color: #f06292;
+}
+
+.tx-PRENSA {
+    color: #f06292;
+}
